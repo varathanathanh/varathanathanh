@@ -1,12 +1,31 @@
-- 👋 Hi, I’m @varathanathanh
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<?xml version="1.0" encoding="UTF-8"?>
 
-<!---
-varathanathanh/varathanathanh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!DOCTYPE bookstore [
+
+  <!ELEMENT bookstore (book+)>
+
+  <!ELEMENT book (title, author, year)>
+
+  <!ELEMENT title (#PCDATA)>
+
+  <!ELEMENT author (#PCDATA)>
+
+  <!ELEMENT year (#PCDATA)>
+
+  <!ATTLIST book id ID #REQUIRED>
+
+]>
+
+<bookstore>
+
+  <book id="001">
+
+    <title>Programming in ANSI C</title>
+
+    <author>E.Balagurusamy</author>
+
+    <year>2020</year>
+
+  </book>
+
+</bookstore>
