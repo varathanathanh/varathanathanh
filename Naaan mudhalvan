@@ -1,27 +1,14 @@
-html>
 
+<!DOCTYPE html>
+<html>
 <head>
-
-<title>Document</title>
-
+    <title>My Web Page</title>
 </head>
-
-<title>APPLICATION FORM</title>
-
-<script type="text/javascript">
-
-function verifyform()
-
-{
-
-var x=document.forms["myform"]["name"].value; if(x=="")
-
-{
-
-alert("Name must be filled out");
-
- return false;
-
-}
-
-else
+<body>
+    <h1>Welcome to My Web Page</h1>
+    <p>This is a simple web page.</p>
+    <p>It has a heading and two paragraphs.</p>
+    <a href="https://www.google.com">Visit Google</a>
+    <img src="image.jpg" alt="My Image">
+</body>
+</html>
