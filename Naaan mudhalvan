@@ -2,13 +2,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Web Page</title>
+	<title>My First HTML Page</title>
 </head>
 <body>
-    <h1>Welcome to My Web Page</h1>
-    <p>This is a simple web page.</p>
-    <p>It has a heading and two paragraphs.</p>
-    <a href="https://www.google.com">Visit Google</a>
-    <img src="image.jpg" alt="My Image">
+	<h1>Welcome to My Page</h1>
+	<p>This is a paragraph of text.</p>
 </body>
 </html>
