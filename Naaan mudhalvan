@@ -1,4 +1,4 @@
-<html>
+html>
 
 <head>
 
@@ -25,66 +25,3 @@ alert("Name must be filled out");
 }
 
 else
-
-{
-
-document.write("FORM SUBMITTED SUCEESFULLY");
-
-}
-
-}
-
-</script>
-
-<body bgcolor="crayon">
-
-<form name="myform" onsubmit="return verifyform()">
-
-<label for="name">Name : </label>
-
-<input type="text" name="name" id="name"><br><br>
-
-
-
-<label for="gender">Gender : </label><br>
-
-<input type="radio" name="gender">Male<br>
-
-<input type="radio" name="gender">Female<br><br>
-
-
-
-<label for="address">Address : </label><br><br>
-
-<textarea name="address" cols="20" rows="5"></textarea><br><br>
-
-
-
-<label for="email">Email : </label>
-
-<input type="email" name="email" id="email" required><br><br>
-
-
-
-<label for="phone">Phone : </label>
-
-<input type="text" name="phone" id="phone" required><br><br>
-
-
-
-<label for="message">Message</label><br> 
-
-<textarea type="message" id="message" rows="5" required></textarea><br><br>
-
-
-
-<input type="submit" value="SUBMIT">
-
-<input type="Button" name="b1" value="CLOSE" onclick="Window.Close()">
-
-</form>
-
-</body>
-
-</html>
-
